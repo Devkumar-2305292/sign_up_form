@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img
+          class="img1"
+          src="amith-nair-jQAk1lZL5Jk-unsplash (4).jpg"
+          alt="img"
+        />
+        <div class="logo">
+          <img
+            class="odin"
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+            alt="logo1"
+          />
+          <h3>THOR</h3>
+        </div>
+      </div>
+
+      <div class="right">
+        <header class="head">
+          <p>
+            Your journey to success begins with a single step - sign up and
+            start today
+          </p>
+        </header>
+        <div class="input">
+          <h4>Let's do this!</h4>
+          <form action="sign-up" method="post">
+            <label for="First_name">FIRST NAME</label>
+            <input type="text" id="First_name" />
+
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" />
+
+            <label for="user_email">EMAIL</label>
+            <input
+              type="email"
+              id="user_email"
+              name="email"
+              placeholder="you@example.con"
+            />
+
+            <label for="user_password">PASSWORD</label>
+            <input type="password" id="user_password" name="password" />
+
+            <label for="user_password">CONFIRM PASSWORD</label>
+            <input type="password" id="user_password1" name="password" />
+
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="tel" id="phone_number" name="phone_number">
+
+            <button type="submit" class="submit">Submit</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
